@@ -45,7 +45,7 @@ Client Version: version.Info{Major:"1", Minor:"19", GitVersion:"v1.19.0", GitCom
 ```
 ### Install MiniKube
 ```
-curl -LO https://github.com/kubernetes/minikube/releases/download/v1.19.0/minikube-linux-amd64 && mv minikube-linux-amd64 minikube && chmod +x minikube && sudo mv ./minikube /usr/bin
+curl -LO https://github.com/kubernetes/minikube/releases/download/v1.19.0/minikube-linux-amd64 && mv minikube-linux-amd64 minikube && chmod +x minikube && sudo mv ./minikube /usr/local/bin
 ```
 Try to verify if MiniKube installed,
 ```
